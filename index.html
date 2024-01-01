@@ -1,0 +1,122 @@
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h1>Rigistration Form SMIT</h1></legend>
+      <br />
+      <br />
+      <form action="https://dummayxyz.com" method="post">
+        <label for="user name">User Name</label>
+        <input
+          type="text"
+          id="user name"
+          name="user name"
+          placeholder="Enter your name"
+          required
+        />
+        <br />
+        <br />
+        <label for="Gardian name">Gardian name</label>
+        <input
+          type="text"
+          id="Gardian name"
+          name="Gardian name"
+          placeholder="Enter Gardian name"
+          required
+        />
+        <br />
+        <br />
+        <label for="number">Phone number</label>
+        <input
+          type="number"
+          id="number"
+          name="phone number"
+          placeholder="Enter phone number"
+          required
+          maxlength="11"
+        />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your number"
+          required
+          maxlength="40"
+        />
+        <br />
+        <br />
+        <label for="CINC">CNIC</label>
+        <input
+          type="number"
+          name="CINC"
+          id="CNIC"
+          placeholder="0312-0312232-5"
+          required
+          maxlength="12"
+        />
+        <br />
+        <br />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Create password"
+          required
+          maxlength="12"
+        />
+        <br />
+        <br />
+        <label for="comfirm password">comfirm Password</label>
+        <input
+          type="password"
+          id="comfirm password"
+          name="password"
+          placeholder="comfirm password"
+          required
+          maxlength="12"
+        />
+        <br />
+        <br />
+        <label for="age">Age</label>
+        <input type="date" name="age" id="age" required />
+        <br />
+        <h4>Select your city</h4>
+        <select name="city">
+          <option value="Select your city" disabled c>select your city</option>
+          <option value="Karachi">Karachi</option>
+          <option value="Hydrabad">Hydrabad</option>
+          <option value="Islamabad">Islamabad</option>
+          <option value="Lahore">Lahore</option>
+        </select>
+        <p>Select one course do you wish</p>
+        <label for="WMA">web and app</label>
+        <input type="radio" name="course" id="WMA" />
+        <label for="python development">python development</label>
+        <input type="radio" name="course" id="python development" />
+        <label for="grafic design">grafic design</label>
+        <input type="radio" name="course" id="grafic design" />
+        <p>Select your qulificatin</p>
+        <label for="matrix">Matrix</label>
+        <input type="checkbox" name="matrix" id="matrix" />
+        <label for="intermediat">intermediat</label>
+        <input type="checkbox" name="intermediat" id="intermediat" checked />
+        <label for="graduvat">Graduvat</label>
+        <input type="checkbox" name="Graduvat" id="graduvat" />
+        <br />
+        <br />
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <br />
+        <br />
+        <label for="submit">Submit</label>
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+    </fieldset>
+  </body>
+</html>
